@@ -1,0 +1,60 @@
+.systems{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding : 50px;
+    &-main{
+        display: flex;
+        >div{
+            flex : 1;
+        }
+        align-items: center;
+        width: 1000px;
+        margin: auto;
+        .boximg{
+            display: flex;
+            justify-content: center;
+        }
+        .boxbot{
+            display: flex;
+            flex-direction: column;
+            gap : 20px;
+            .mys{
+                font-size: 40px;
+                font-weight: bold;
+                color : white;
+            }
+            .listbox{
+                display: flex;
+                flex-direction: column;
+                color : rgba(255, 255, 255, 0.698);
+                gap : 5px;
+                >div{
+                    width: 400px;
+                    &.background{
+                        background: linear-gradient(90deg, rgba(0, 194, 242, 0) 1.1%, rgb(5, 118, 246) 51.22%, rgba(3, 68, 255, 0) 96.37%) ;
+                    }
+                    padding:  10px;
+                }
+            }
+        }
+        }
+    
+    .boxtop{
+        background: url(../../../assets/svg/bgboxtop.svg);
+        background-size : 100% 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        position: relative;
+        padding: 30px;
+    
+        .include{
+            font-size: 30px;
+            color: white;
+        }
+}
+}

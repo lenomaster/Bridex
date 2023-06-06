@@ -1,0 +1,12 @@
+.items{
+    display: flex;
+    justify-content: center;
+    &-main{
+        &_text{
+            display: flex;
+            >div{
+                flex : 1;
+            }
+        }
+    }
+}

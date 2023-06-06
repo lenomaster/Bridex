@@ -1,0 +1,29 @@
+.header{
+    background: rgb(6, 32, 136);
+    display: flex;
+    justify-content: center;
+    &-main{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &_text{
+            display: flex;
+            >div{
+                color: white;
+                font-weight: bold;
+            }
+            gap: 20px;
+
+        }
+        .wallet{
+            color: white;
+            font-weight: bold;
+            border-radius: 10px;
+            background: orange;
+            padding: 10px;
+            border-style: none;
+        }
+       
+    }
+}
+
